@@ -9259,11 +9259,6 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 
-@media (max-width: 991px) {
-  .hidden-md-down {
-    display: none !important;
-  }
-}
 
 @media (min-width: 992px) {
   .hidden-lg-up {
