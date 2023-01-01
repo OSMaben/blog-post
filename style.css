@@ -756,6 +756,7 @@ div.tab button:hover {
     padding: 0.8rem 0.8rem;
     position: relative;
     text-transform: capitalize;
+    cursor: pointer;
 }
 
 .page-link:hover,
@@ -1683,3 +1684,88 @@ hr.invis3 {
     font-weight: 502;
     text-transform: capitalize
 }
+
+.checks {
+  position: absolute;
+  padding: 0.3rem 1.9rem;
+  background: #fa9430;
+  border-radius: 0.2rem;
+  display: none;
+  list-style: none
+}
+
+#dropDown:hover .checks{
+    display:inline-block;
+}
+
+
+.blog-box.row {
+    display: none;
+  }
+
+.blog-box.row:nth-child(1){
+    display:inline-flex;
+}
+
+
+.blog-box.row:nth-child(2){
+    display:inline-flex;
+}
+.blog-box.row:nth-child(3){
+    display:inline-flex;
+}
+.blog-box.row:nth-child(4){
+    display:inline-flex;
+}
+
+.blog-box.row:nth-child(5){
+    display:inline-flex;
+}
+
+.blog-box.row:nth-child(6){
+    display:inline-flex;
+} 
+
+
+.blog-box.row:nth-child(7){
+    display:inline-flex;
+} 
+
+.blog-box.row:nth-child(8){
+    display:inline-flex;
+} 
+.blog-box.row:nth-child(9){
+    display:inline-flex;
+} 
+.blog-box.row:nth-child(10){
+    display:inline-flex;
+} 
+
+
+.blog-box.row:nth-child(11){
+    display:inline-flex;
+} 
+
+.blog-box.row:nth-child(12){
+    display:inline-flex;
+} 
+
+.blog-box.row:nth-child(13){
+    display:inline-flex;
+} 
+
+/* .blog-box.row:nth-child(14){
+    display:inline-flex;
+} 
+
+
+
+.blog-box.row:nth-child(16){
+    display:inline-flex;
+}   */
+
+.loaded{
+opacity: 0;
+visibility: hidden;
+}
+
